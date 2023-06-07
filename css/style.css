@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* Responsive Img */
+.__img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Gradient Background */
+.__gradientBg {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 34%, rgba(92, 210, 185, 1) 100%);
+}
+
+@media screen and (min-width:1300px) {
+    .__container {
+        width: 1220px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1299px) {
+    .__container {
+        max-width: 970px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .__container {
+        max-width: 740px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .__container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+
+/* Header Start */
+.__header {
+    background-color: #151515;
+}
+
+.__header .__navbar {
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+
+}
+
+.__header .__navbar ul {
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+}
+
+.__header .__navbar a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.__header .__navbar a:hover {
+    color: #5cd2b9;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+    font-weight: 600;
+}
+
+/* Header End */
+
+/* Banner Start */
+.__hero {
+    background-image: url(../images/banner.webp);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.__hero .__contant>span {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5cd2b9;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.__hero .__contant h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.__hero .__contant h1 span {
+    color: #5cd2b9;
+}
+
+.__hero .__contant p {
+    color: #aaaaaa;
+    margin-bottom: 50px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.__hero .__contant a {
+    width: 200px;
+    display: inline-block;
+    background-color: #5cd2b9;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.__hero .__contant a:hover {
+    background-color: transparent;
+    border: 1px solid;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    transform: translateY(-6px);
+    transition: all 0.5s
+}
+
+/* Banner End */
+
+/* AboutUs Start*/
+.__aboutUs {
+    background-color: black;
+    padding-top: 100px;
+}
+
+.__aboutUs .__row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.__aboutUs .__row .__col5 {
+    flex: 0 0 40%;
+}
+
+.__aboutUs .__col7 .__contant>span {
+    color: #5cd2b9;
+    margin: 0px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 5px;
+    letter-spacing: 4px;
+}
+
+.__aboutUs .__col7 .__contant h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.__aboutUs .__col7 .__contant h2 span {
+    color: #5cd2b9;
+}
+
+.__aboutUs .__col7 .__contant p {
+    font-size: 15px;
+    padding-top: 20px;
+    line-height: 25px;
+    color: #aaaaaa;
+}
+
+/* AboutUs End*/
+
+/* Solution Start*/
+.__solution {
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.__solution .__row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.__solution .__row .__col5 {
+    flex: 0 0 40%;
+}
+.__solution .__col7 .__contant h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.__solution .__col7 .__contant h2 span {
+    color: #5cd2b9;
+}
+
+.__solution .__col7 .__contant p {
+    font-size: 15px;
+    padding-top: 20px;
+    line-height: 25px;
+    color: #aaaaaa;
+}
+
+/* Solution End*/
+
+/* Services Start */
+.__services {
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.__services .__contant{
+    padding-bottom: 100px;
+}
+
+.__services .__contant > span {
+    color: #5cd2b9;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.__services .__contant h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.__services .__contant h1 span {
+    color: 5cd2b9;
+}
+
+.__services .__contant p {
+    color: #aaaaaa;
+    font-size: 15px;
+    line-height: 25px;
+}
+.__services .__contant .__row{
+    display: flex;
+    text-align: center;
+    padding-top: 100px;
+}
+.__services .__contant .__col6{
+    flex: 0 0 44vw;
+}
+.__services .__contant .__row .__col6 h3{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.__services .__contant .__row .__col6 p{
+    color: #aaaaaa;
+    font-size: 15px;
+    line-height: 25px;
+}
+/* Services End */
