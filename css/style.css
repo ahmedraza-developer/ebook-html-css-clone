@@ -28,6 +28,16 @@ body {
     height: auto;
 }
 
+/* Center Img */
+.__imgCenter {
+    display: block;
+    margin: 0 auto;
+}
+/* Rounded Img */
+.__imgRounded {
+    border-radius: 50%;
+}
+
 /* Gradient Background */
 .__gradientBg {
     background: rgb(0, 0, 0);
@@ -107,7 +117,7 @@ body {
 }
 
 .__hero .__contant>span {
-    margin: 0px;
+    display: block;
     font-size: 18px;
     line-height: 28px;
     color: #5cd2b9;
@@ -152,7 +162,7 @@ body {
     border-left-width: 3px;
     border-right-width: 3px;
     transform: translateY(-6px);
-    transition: all 0.5s
+    transition: all 0.5s ease-in-out
 }
 
 /* Banner End */
@@ -174,11 +184,11 @@ body {
 }
 
 .__aboutUs .__col7 .__contant>span {
-    color: #5cd2b9;
-    margin: 0px;
-    font-size: 20px;
     display: block;
-    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5cd2b9;
+    font-weight: 600;
     letter-spacing: 4px;
 }
 
@@ -186,6 +196,7 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 700;
+    margin-bottom: 20px;
     line-height: 60px;
 }
 
@@ -195,7 +206,6 @@ body {
 
 .__aboutUs .__col7 .__contant p {
     font-size: 15px;
-    padding-top: 20px;
     line-height: 25px;
     color: #aaaaaa;
 }
@@ -218,18 +228,19 @@ body {
 .__solution .__row .__col5 {
     flex: 0 0 40%;
 }
-.__solution .__col7 .__contant h2 {
+
+.__solution .__contant h2 {
     color: white;
     font-size: 50px;
     font-weight: 700;
     line-height: 60px;
 }
 
-.__solution .__col7 .__contant h2 span {
+.__solution .__contant h2 span {
     color: #5cd2b9;
 }
 
-.__solution .__col7 .__contant p {
+.__solution .__contant p {
     font-size: 15px;
     padding-top: 20px;
     line-height: 25px;
@@ -242,55 +253,318 @@ body {
 .__services {
     background-color: #000000;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 
-.__services .__contant{
+.__services .__content {
     padding-bottom: 100px;
 }
 
-.__services .__contant > span {
-    color: #5cd2b9;
+.__services .__content>span {
+    display: block;
     font-size: 18px;
+    line-height: 28px;
+    color: #5cd2b9;
     font-weight: 600;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
-.__services .__contant h1 {
+.__services .__content h1 {
     color: white;
     font-size: 50px;
     line-height: 60px;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
-.__services .__contant h1 span {
+.__services .__content h1 span {
     color: 5cd2b9;
 }
 
-.__services .__contant p {
+.__services .__content p {
     color: #aaaaaa;
     font-size: 15px;
     line-height: 25px;
+    font-weight: 400;
 }
-.__services .__contant .__row{
+
+.__services .__row {
     display: flex;
     text-align: center;
-    padding-top: 100px;
+    gap: 20px;
 }
-.__services .__contant .__col6{
-    flex: 0 0 44vw;
+
+.__services .__row .__col6 {
+    flex: 0 0 50%;
 }
-.__services .__contant .__row .__col6 h3{
+
+.__services .__row .__col6 .__card {
+    margin-bottom: 30px;
+}
+
+.__services .__row .__col6 .__card h3 {
     color: white;
     font-weight: 700;
     font-size: 30px;
-    line-height: 55px;
+    line-height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px
 }
 
-.__services .__contant .__row .__col6 p{
+.__services .__row .__col6 .__card p {
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+/* Services End */
+
+/* Why Choose Start */
+
+.__whyChoose {
+    background-color: #0c0c0c;
+}
+
+.__whyChoose .__row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.__whyChoose .__row .__col7 {
+    flex: 0 0 50%;
+}
+
+.__whyChoose .__row .__col5 h3 {
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.__whyChoose .__row .__col5 h3 span {
+    color: #5cd2b9;
+}
+
+.__whyChoose .__row .__col5 h2 {
+    color: white;
+    font-size: 30px;
+    margin: 15px 0 15px;
+}
+
+.__whyChoose .__row .__col5 p {
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+/* Why Choose End */
+
+/* Digital Start */
+.__digital {
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.__digital .__contant h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: white;
+}
+
+.__digital .__contant h2 span {
+    color: #5cd2b9;
+}
+
+.__digital .__contant p {
+    color: #aaaaaa;
+    line-height: 25px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/* Digital End */
+
+/* Logos Start*/
+
+.__logos {
+    background-image: url(../images/sideView.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.__logos .__row {
+    display: flex;
+}
+
+.__logos .__row .__col2 {
+    flex: 0 0 20%;
+}
+
+.__logos img {
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+}
+
+.__logos img:hover {
+    filter: inherit;
+    cursor: pointer;
+}
+
+/* Logos End*/
+
+/* portFolio Start */
+
+.__portFolio {
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.__portFolio .__content {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.__portFolio .__content>span {
+    color: #5cd2b9;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 4px;
+    display: block;
+    font-weight: 600;
+}
+
+.__portFolio h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.__portFolio h2 span {
+    color: #5cd2b9;
+}
+
+.__portFolio p {
     color: #aaaaaa;
     font-size: 15px;
     line-height: 25px;
+    font-weight: 400;
 }
-/* Services End */
+
+.__portFolio .__row {
+    display: flex;
+    gap: 20px;
+}
+
+.__portFolio .__row .__col4 {
+    flex: 1;
+}
+
+.__portFolio img {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.__portFolio .__row .__col4 img:first-child {
+    margin-bottom: 20px;
+}
+
+/* portFolio End */
+
+/* testiMonials Start */
+
+.__testimonials {
+    background-image: url(../images/adadad.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.__testimonials .__content {
+    margin-bottom: 50px;
+}
+
+.__testimonials .__content>span {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 28px;
+    color: #5cd2b9;
+}
+
+.__testimonials h2 {
+    font-size: 50px;
+    color: white;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.__testimonials h2 span {
+    color: #5cd2b9;
+}
+
+.__testimonials .__content p {
+    color: #aaaaaa;
+}
+
+.__testimonials .__row {
+    display: flex;
+    gap: 20px;
+}
+
+.__testimonials .__row p {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.__testimonials .__box {
+    background-color: #151515CF;
+    padding: 40px 20px;
+}
+
+.__testimonials .__avatar {
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+    align-items: center;
+}
+
+.__avatar h3 {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.__avatar h3:hover{
+    color: #aaaaaa;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.__avatar p {
+    margin-left: auto;
+    font-size: 50px;
+}
+.__avatar span{
+    color: rgb(57, 100, 57);
+}
+/* testiMonials End */
