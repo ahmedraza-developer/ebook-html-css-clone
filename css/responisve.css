@@ -1,0 +1,470 @@
+/* Large Screens */
+@media screen and (min-width:1300px) {
+    .__container {
+        width: 1220px;
+        margin: auto;
+    }
+}
+
+/* Small Laptop */
+@media screen and (min-width: 1000px) and (max-width: 1299px) {
+    .__container {
+        max-width: 970px;
+        margin: auto;
+    }
+
+    /*  */
+
+    .__hero .__contant>span {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 4px;
+    }
+    
+    .__hero .__contant h1 {
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 75px;
+    }   
+    .__hero .__contant p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /*  */
+
+
+      /*  */
+
+      .__aboutUs .__col7 .__contant h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }   
+    .__aboutUs .__col7 .__contant p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /*  */
+
+    /*  */
+
+    .__solution .__contant h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }  
+    .__solution .__contant p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /*  */
+
+    /*  */
+    /*  */
+    .__services .__content>span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .__services .__content h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .__services .__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /*  */
+    /*  */
+
+    /* Why Choose Responsive Start */
+
+    .__whyChoose .__row .__col7 {
+        flex: 1;
+    }
+
+    .__whyChoose .__row .__col5 {
+        flex: 2;
+    }
+
+    .__whyChoose .__row .__col5 h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .__whyChoose .__row .__col5 h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .__whyChoose .__row .__col5 h3 br {
+        display: none;
+    }
+
+    /* Why Choose Responsive End */
+    /*  */
+    .__logos .__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .__logos .__row .__col2 {
+        flex: 0 0 25%;
+    }
+    /*  */
+
+    /*  */
+
+    /* .__portFolio .__row .__col4 {
+        
+    } */
+    .__portFolio .__content>span {
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: 4px;
+    }
+    
+    .__portFolio .__content h2 {
+        font-size: 40px;   
+        line-height: 50px;
+    }    
+   .__portFolio .__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    /*  */
+
+    /*  */
+    .__digital .__contant h2{
+    font-size: 40px;
+    line-height: 50px;
+}
+.__digital .__contant p{
+    font-size: 14px;
+    line-height: 24px;
+}
+    /*  */
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .__container {
+        max-width: 740px;
+        margin: auto;
+    }
+
+     /*  */
+     .__header .__navbar ul{
+        display: none;
+    }
+
+    .__navbar .__logo{
+        margin: 0 auto;
+    }
+    /*  */
+
+
+    /*  */
+
+    .__hero .__contant>span {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 4px;
+    }
+    
+    .__hero .__contant h1 {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+    }   
+    .__hero .__contant p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /*  */
+
+     /*  */
+
+     .__aboutUs .__col7 .__contant h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }   
+    .__aboutUs .__col7 .__contant p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /*  */
+
+    /*  */
+
+    .__solution .__contant h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }  
+    .__solution .__contant p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /*  */
+
+       /*  */
+       .__services .__content>span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .__services .__content h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .__services .__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /*  */
+
+    /*  */
+    .__whyChoose .__row .__col7 {
+        flex: inherit;
+    }
+
+    .__whyChoose .__row {
+        flex-direction: column;
+    }
+    
+    .__whyChoose .__row .__col5 h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .__whyChoose .__row .__col5 h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .__whyChoose .__row .__col5 h3 br {
+        display: none;
+    }
+    
+    /*  */
+
+        /*  */
+        .__portFolio .__content>span {
+            font-size: 17px;
+            line-height: 27px;
+            letter-spacing: 4px;
+        }
+        
+        .__portFolio .__content h2 {
+            font-size: 40px;   
+            line-height: 50px;
+        }    
+       .__portFolio .__content p {
+            font-size: 15px;
+            line-height: 25px;
+        }
+        
+        /*  */
+    
+        /*  */
+        .__digital .__contant h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .__digital .__contant p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+        /*  */
+
+    /*  */
+    .__logos .__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .__logos .__row .__col2 {
+        flex: 0 0 25%;
+    }
+    /*  */
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .__container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    
+     /*  */
+     .__header .__navbar ul{
+        display: none;
+    }
+
+    .__navbar .__logo{
+        margin: 0 auto;
+    }
+    /*  */
+
+     /*  */
+
+     .__hero .__contant>span {
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 4px;
+    }
+    
+    .__hero .__contant h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }   
+    .__hero .__contant p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /*  */
+
+    /*  */
+
+    .__aboutUs .__row .__col7 {
+        flex: inherit;
+    }
+
+    .__aboutUs .__row {
+        flex-direction: column;
+    }
+    .__aboutUs .__col7 .__contant>span{
+        text-align: center;
+    }
+    .__aboutUs .__col7 .__contant h2 {
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+    }   
+    .__aboutUs .__col7 .__contant p {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    /*  */
+
+    /*  */
+
+    .__solution .__contant h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }  
+    .__solution .__contant p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .__solution .__row .__col7 {
+        flex: inherit;
+    }
+
+    .__solution .__row {
+        flex-direction: column;
+    }
+    /*  */
+
+    /*  */
+    .__services .__content>span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .__services .__content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .__services .__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /*  */
+
+    /*  */
+    
+    .__whyChoose .__row{
+        flex-wrap: wrap;
+    }
+    .__whyChoose .__row .__col7 {
+        flex: inherit;
+    }
+
+    .__whyChoose .__row {
+        flex-direction: column;
+    }
+    .__whyChoose .__row .__col5 {
+        flex: 2;
+    }
+
+    .__whyChoose .__row .__col5 h3 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .__whyChoose .__row .__col5 h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .__whyChoose .__row .__col5 h3 br {
+        display: none;
+    }
+    /*  */
+    
+    /*  */
+    .__logos .__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* justify-content: space-around; */
+    }
+    .__logos .__row .__col2 {
+        flex: 0 0 40%;
+    }
+    /*  */
+
+    /*  */
+    .__services .__row {
+        flex-wrap: wrap;
+    }
+    .__services .__row .__col6 {
+        flex: 0 0 48%;
+    }
+    /*  */
+
+    /*  */
+    .__digital .__contant h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .__digital .__contant p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /*  */
+
+    /*  */
+    .__portFolio .__content>span {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 4px;
+    }   
+    .__portFolio .__content h2 {
+        font-size: 30px;   
+        line-height: 40px;
+    }    
+   .__portFolio .__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /*  */
+}
+

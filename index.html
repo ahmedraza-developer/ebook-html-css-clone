@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./slick/slick.css" />
+    <link rel="stylesheet" href="./slick/slick-theme.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responisve.css" />
     <title>Kudos Cube</title>
 </head>
 
@@ -15,7 +18,7 @@
         <div class="__header">
             <div class="__container">
                 <nav class="__navbar">
-                    <div class="logo">
+                    <div class="__logo">
                         <img src="images/logo-1.png" alt="Logo" />
                     </div>
                     <ul>
@@ -253,10 +256,6 @@
                             <a href="images/st2.webp" data-fancybox>
                                 <img src="images/st2.webp" alt="iamges" />
                             </a>
-                            <!-- <div class="__fancyBox">
-                            <a data-fancybox="gallery" href="images/7-1.webp"><img src="images/7-1.webp" /></a>
-                            <a data-fancybox="gallery" href="images/st2.webp"><img src="images/st2.webp" /> </a>
-                            </div> -->
                         </div>
                         <div class="__col4">
                             <a href="images/gcm-1.webp" data-fancybox>
@@ -265,10 +264,6 @@
                             <a href="images/7-1.webp" data-fancybox>
                                 <img src="images/7-1.webp" alt="iamges" />
                             </a>
-                            <!-- <div class="__fancyBox">
-                                <a data-fancybox="gallery" href="images/gcm-1.webp"><img src="images/gcm-1.webp" /></a>
-                                <a data-fancybox="gallery" href="images/7-1.webp"><img src="images/7-1.webp" /></a>
-                            </div> -->
                         </div>
                         <div class="__col4">
                             <a href="images/3-1.webp" data-fancybox>
@@ -277,11 +272,6 @@
                             <a href="images/Mockup.webp" data-fancybox>
                                 <img src="images/Mockup.webp" alt="iamges" />
                             </a>
-                            <!-- <div class="__fancyBox">
-                                <a data-fancybox="gallery" href="images/3-1.webp"><img src="images/3-1.webp" /></a>
-                                <a data-fancybox="gallery" href="images/Mockup.webp"><img
-                                        src="images/Mockup.webp" /></a>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -295,8 +285,8 @@
                         <h2>What <span>Client</span> Says.</h2>
                         <p>What our clients says about us </p>
                     </div>
-                    <div class="__row">
-                        <div class="__col6">
+                    <div class="__slider">
+                        <div class="__slides">
                             <div class="__box">
                                 <p>"Kudos Cube got into detail to learn about our business, our products, and the people
                                     we will target! They developed refined marketing strategies and benefitted us a
@@ -313,7 +303,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="__col6">
+                        <div class="__slides">
                             <div class="__box">
                                 <p>"Lucky to get in touch with them at the right time. These guys turned out to be
                                     incredible partners for my business and assisted in every stage of my online
@@ -324,7 +314,41 @@
                                     <img src="images/Matt.webp" alt="Matt" width="65" height="65"
                                         class="__imgRounded" />
                                     <div class="__name">
+                                        <h3>Matt Jericho</h3>
+                                        <span>Businessman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="__slides">
+                            <div class="__box">
+                                <p>"Kudos Cube got into detail to learn about our business, our products, and the people
+                                    we will target! They developed refined marketing strategies and benefitted us a
+                                    lot.I reached out multiple times, and they responded in a few minutes. HIGHLY
+                                    RECOMMENDED!!!!"
+                                </p>
+                                <div class="__avatar">
+                                    <img src="images/Jordan.webp" alt="Jordan" width="65" height="65"
+                                        class="__imgRounded" />
+                                    <div class="__name">
                                         <h3>Jordan Hales</h3>
+                                        <span>Businessman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="__slides">
+                            <div class="__box">
+                                <p>"Lucky to get in touch with them at the right time. These guys turned out to be
+                                    incredible partners for my business and assisted in every stage of my online
+                                    business. It’s been ten months of collaboration with Kudos Cube, and hopefully,
+                                    we’ll continue the bond for years!"
+                                </p>
+                                <div class="__avatar">
+                                    <img src="images/Matt.webp" alt="Matt" width="65" height="65"
+                                        class="__imgRounded" />
+                                    <div class="__name">
+                                        <h3>Matt Jericho</h3>
                                         <span>Businessman</span>
                                     </div>
                                 </div>
@@ -355,7 +379,7 @@
                         </div>
                         <div class="__col6">
                             <div class="__content">
-                                <span>Contact Us</span>
+                                <span>CONTACT US</span>
                                 <h2>Get In <span>Touch</span>.</h2>
                                 <p>Feel free to contact us with any questions or queries by the contact <br> information
                                     below. We’re always available to welcome you at Kudos Cube.</p>
@@ -390,6 +414,31 @@
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.__testimonials .__slider').slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
 </body>
 
 </html>
