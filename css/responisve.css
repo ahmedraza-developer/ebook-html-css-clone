@@ -280,7 +280,7 @@
     }
         /*  */
 
-    /*  */
+        /*  */
     .__logos .__row {
         display: flex;
         flex-wrap: wrap;
@@ -369,10 +369,16 @@
 
     .__solution .__row {
         flex-direction: column;
+        text-align: center;
     }
     /*  */
 
     /*  */
+
+    .__services .__content{
+        text-align: center;
+    }
+
     .__services .__content>span {
         font-size: 18px;
         line-height: 28px;
@@ -399,6 +405,7 @@
 
     .__whyChoose .__row {
         flex-direction: column;
+        text-align: center;
     }
     .__whyChoose .__row .__col5 {
         flex: 2;
@@ -436,11 +443,16 @@
         flex-wrap: wrap;
     }
     .__services .__row .__col6 {
-        flex: 0 0 48%;
+        flex: 1 0 48%;
     }
     /*  */
 
     /*  */
+
+    .__digital .__contant{
+        text-align: center;
+    }
+
     .__digital .__contant h2 {
         font-size: 35px;
         line-height: 45px;
@@ -451,7 +463,56 @@
     }
     /*  */
 
+
     /*  */
+
+    .__form .__row .__col6 {
+        flex: inherit;
+    }
+
+    .__form .__row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .__form .__row h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }   
+    .__form .__row p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .__form .__row a {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .__form .__row h3 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    .__form .__row button {
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    /*  */
+
+
+    /*  */
+
+    .__portFolio .__row .__col6 {
+        flex: inherit;
+    }
+
+    .__portFolio .__row {
+        flex-direction: column;
+    }
+
     .__portFolio .__content>span {
         font-size: 16px;
         line-height: 26px;

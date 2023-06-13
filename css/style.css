@@ -144,7 +144,6 @@ body {
 .__aboutUs {
     background-color: black;
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .__aboutUs .__row {
@@ -342,8 +341,8 @@ body {
 /* Digital Start */
 .__digital {
     background-color: #000000;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .__digital .__contant h2 {
@@ -728,3 +727,4 @@ body {
 
 
 /* footer end */
+
